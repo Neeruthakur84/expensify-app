@@ -20,6 +20,9 @@ const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 console.log(visibleExpenses);
 
 const jsx = (
+  //  <div>
+  //    <h1>Hello World</h1>
+  //  </div>
   <Provider store={store}>
     <AppRouter />
   </Provider>
